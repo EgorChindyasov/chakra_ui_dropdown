@@ -1,0 +1,10 @@
+.dropdownBlock {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownValue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
