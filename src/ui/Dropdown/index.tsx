@@ -25,7 +25,6 @@ const Dropdown = forwardRef<HTMLDivElement, DropdownProps>(({options, title, lab
     }
 
     const selectOption = (option: DropdownOptions) => {
-        console.log(option)
         setChosenOption(option)
         setOpened(false)
     }
